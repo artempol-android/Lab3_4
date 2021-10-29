@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/activityAbout3">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.lab3_activity1.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/activityAbout3"
+        android:name="com.example.lab3_activity1.ActivityAbout"
+        android:label="activity_about"
+        tools:layout="@layout/activity_about" />
+</navigation>
